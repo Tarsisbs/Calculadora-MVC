@@ -8,5 +8,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarsisbs/Calculadora-MVC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tarsisbs/Calculadora-MVC/issues"
+  },
+  "homepage": "https://github.com/Tarsisbs/Calculadora-MVC#readme",
   "description": ""
 }

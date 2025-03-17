@@ -28,10 +28,6 @@ btn_calcular.addEventListener('click', async()=>{
     res.textContent = `O resultado é: ${retorno.resultado}`
 })
 
-
-
-
-
 // Realizar a requisição para o BackENd
 
 

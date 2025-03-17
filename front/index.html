@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculadora</title>
 </head>
 <body>
-    <h1>FRONT END</h1>
-    <label for=""> 
-        <span>Operacao</span> 
-        <input type="text" name="opc" class="opc">
-    </label>
-    <br>
-    <label for=""> 
-        <span>Numero 1</span> 
-        <input type="text" name="n1" class="n1">
-    </label>
-    <br>
-    <label for=""> 
-        <span>Numero 2</span> 
-        <input type="text" name="n1" class="n2">
-    </label>
-    <br>
-    <button id="btn_calcular">Realizar Calculo</button>
+    <h1>Calculadora</h1>
+    
+    <div class="main_container">
+        <label for="opc">Operações</label>
+        <select id="operacao" name="opc" class="opc">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="^">^</option>
+        </select>
+        <br><br>
+        <label for="" class="input-n1"> 
+            <span>Digite o Primeiro Número</span> 
+            <input type="text" name="n1" class="n1">
+        </label>
+        <br><br>
+        <label for="" class="input-n2"> 
+            <span>Digite o Segundo Número</span> 
+            <input type="text" name="n1" class="n2">
+        </label>
+        <br><br>
+        <button id="btn_calcular">Realizar Cálculo</button>
 
-    <div>
-        <p class="res"></p>
+        <div>
+            <p class="res"></p>
+        </div>
     </div>
 
     <script type="module" src="./js/script.js"></script>
