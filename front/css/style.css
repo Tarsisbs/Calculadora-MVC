@@ -23,6 +23,7 @@ body{
     border: 2px white solid;
     border-radius: 6px;
     color: white;
+    height: 30px;
 }
 
 .n2{
@@ -30,6 +31,7 @@ body{
     border: 2px white solid;
     border-radius: 6px;
     color: white;
+    height: 30px;
 }
 
 .input-n1{
@@ -42,6 +44,17 @@ body{
     flex-direction: column;
 }
 
+.opc{
+    color: white;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 6px;
+}
+
+.opc option{
+    color: black;
+}
+
 #btn_calcular{
     background-color: transparent;
     border: 2px solid white;
@@ -49,10 +62,10 @@ body{
     color: aliceblue;
     width: 200px;
     height: 60px;
-    animation: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 #btn_calcular:hover{
-    background-color: aquamarine;
-    color: black;
+    background-color: rgb(47, 52, 80);
+    color: white;
 }
